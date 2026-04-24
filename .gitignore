@@ -1,0 +1,32 @@
+# ======================
+# FRONTEND
+# ======================
+frontend/node_modules/
+frontend/dist/
+
+# ======================
+# BACKEND
+# ======================
+backend/target/
+backend/*.log
+
+# Spring Boot secrets
+backend/src/main/resources/application-local.properties
+
+
+# ======================
+# ENV
+# ======================
+.env
+
+# ======================
+# IDE
+# ======================
+.idea/
+.vscode/
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
